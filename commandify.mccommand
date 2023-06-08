@@ -1,0 +1,5 @@
+# Repeating command block that says "h"
+# [string "command type" r c i] [pos "position" ~ ~ ~] [int "direction" +x -x +z -z +y -y] [bool "always active?"] [bool "conditional?"] [string "command"]
+r 0 0 0 0 1 0 "say test1"
+# Chain command block that says "i"
+c 1 0 0 0 1 1 "say test1"
