@@ -1,6 +1,2 @@
-{
-  commands: [
-    ["r", 0, 0, 0, 0, 1, 0, "say h"],
-    ["c", 1, 0, 0, 0, 1, 1, "say i"]
-  ]
-}
+r 0 0 0 0 1 0 say Hello
+c 1 0 0 0 1 0 say World!
